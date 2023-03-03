@@ -6,20 +6,18 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="32dp"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="56dp"
         android:text="@string/messenger"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/purple_500"
         android:textSize="46sp" />
 
     <EditText
         android:textSize="18sp"
-
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -29,7 +27,7 @@
 
     <EditText
         android:textSize="18sp"
-
+        android:layout_marginBottom="12dp"
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -38,8 +36,8 @@
         android:inputType="textPassword" />
 
     <Button
-        android:textSize="18sp"
-
+        android:textSize="16sp"
+        android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"
