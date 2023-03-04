@@ -18,6 +18,7 @@
         android:textSize="46sp" />
 
     <EditText
+        android:layout_marginBottom="12dp"
         android:id="@+id/editTextRegisterEmail"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -27,6 +28,7 @@
         android:textSize="18sp" />
 
     <EditText
+        android:layout_marginBottom="12dp"
         android:id="@+id/editTextRegisterPassword"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -36,6 +38,7 @@
         android:textSize="18sp" />
 
     <EditText
+        android:layout_marginBottom="12dp"
         android:id="@+id/editTextRegisterName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -43,6 +46,7 @@
         android:inputType="text" />
 
     <EditText
+        android:layout_marginBottom="12dp"
         android:id="@+id/editTextRegisterLastName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -53,7 +57,7 @@
         android:id="@+id/editTextRegisterAge"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="14dp"
         android:hint="@string/how_old_are_you"
         android:inputType="number" />
 

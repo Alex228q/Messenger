@@ -17,6 +17,7 @@
         android:textSize="46sp" />
 
     <EditText
+        android:layout_marginBottom="12dp"
         android:textSize="18sp"
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
