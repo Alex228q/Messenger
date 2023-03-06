@@ -13,8 +13,8 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class LoginViewModel extends ViewModel {
     private final FirebaseAuth auth;
-    private MutableLiveData<String> error = new MutableLiveData<>();
-    private MutableLiveData<FirebaseUser> user = new MutableLiveData<>();
+    private final MutableLiveData<String> error = new MutableLiveData<>();
+    private final MutableLiveData<FirebaseUser> user = new MutableLiveData<>();
 
     public LoginViewModel() {
         auth = FirebaseAuth.getInstance();
