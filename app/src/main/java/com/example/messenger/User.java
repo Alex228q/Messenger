@@ -5,7 +5,7 @@ public class User {
     private  String name;
     private  String lastName;
     private  int age;
-    private boolean isOnline;
+    private boolean online;
 
 
 
@@ -14,7 +14,7 @@ public class User {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
-        this.isOnline = isOnline;
+        this.online = isOnline;
     }
 
     public User() {
@@ -37,6 +37,6 @@ public class User {
     }
 
     public boolean isOnline() {
-        return isOnline;
+        return online;
     }
 }
