@@ -16,4 +16,5 @@
     <string name="forgot_password_activity">Forgot password ?</string>
     <string name="reset_password">reset password</string>
     <string name="logout">Logout</string>
+    <string name="type_your_message">Type your message:</string>
 </resources>
